@@ -24,7 +24,7 @@ public class SurfaceViewPreview extends PreviewImpl {
         this.mParent = parent;
 
         final View view = View.inflate(context, R.layout.surface_view, parent);
-        mContainer = view.findViewById(R.id.surface_view_container);
+        mContainer = view.findViewById(R.id.surface_view2_container);
         mContainer.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
             @Override
             public void onLayoutChange(View view, int i, int i1, int i2, int i3, int i4, int i5, int i6, int i7) {
