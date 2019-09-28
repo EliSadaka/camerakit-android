@@ -23,7 +23,7 @@ public class SurfaceView2Preview extends PreviewImpl {
         this.mContext = context;
         this.mParent = parent;
 
-        final View view = View.inflate(context, R.layout.surface_view, parent);
+        final View view = View.inflate(context, R.layout.surface_view2, parent);
         mContainer = view.findViewById(R.id.surface_view2_container);
         mContainer.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
             @Override
@@ -33,7 +33,7 @@ public class SurfaceView2Preview extends PreviewImpl {
         });
 
 
-        mSurfaceView = mContainer.findViewById(R.id.surface_view);
+        mSurfaceView = mContainer.findViewById(R.id.surface_view2);
 
         final SurfaceHolder holder = mSurfaceView.getHolder();
 
