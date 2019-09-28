@@ -131,7 +131,7 @@ public class CameraView extends CameraViewLayout {
 
         mEventDispatcher = new EventDispatcher();
 
-        mPreviewImpl = new SurfaceViewPreview(context, this);
+        mPreviewImpl = new SurfaceView2Preview(context, this);
         mCameraImpl = new Camera1(mEventDispatcher, mPreviewImpl);
 
         mIsStarted = false;
