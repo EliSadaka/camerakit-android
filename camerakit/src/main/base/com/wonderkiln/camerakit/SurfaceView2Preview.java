@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 
 import com.wonderkiln.camerakit.core.R;
 
-public class SurfaceViewPreview extends PreviewImpl {
+public class SurfaceView2Preview extends PreviewImpl {
 
     private Context mContext;
     private ViewGroup mParent;
@@ -19,7 +19,7 @@ public class SurfaceViewPreview extends PreviewImpl {
 
     private int mDisplayOrientation;
 
-    SurfaceViewPreview(final Context context, ViewGroup parent) {
+    SurfaceView2Preview(final Context context, ViewGroup parent) {
         this.mContext = context;
         this.mParent = parent;
 
